@@ -13,10 +13,12 @@ Steps to Run this Application :
     password : password@123
 4.  cd VISATrackingWebApp/
 
-5. python manage.py migrate
+5. python manage.py runserver
 
-6. python manage.py createsuperuser
+6. python manage.py migrate
 
-7. python manage.py runserver
+7. python manage.py createsuperuser
 
-8. http://localhost:8000/admin  --admin console [Please check which port your app is running]
+8. python manage.py runserver
+
+9. http://localhost:8000/admin  --admin console [Please check which port your app is running]
