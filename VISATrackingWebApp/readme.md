@@ -18,3 +18,5 @@ Steps to Run this Application :
 6. python manage.py createsuperuser
 
 7. python manage.py runserver
+
+8. http://localhost:8000/admin  --admin console [Please check which port your app is running]
